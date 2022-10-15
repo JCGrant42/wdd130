@@ -5,7 +5,7 @@ div {
     margin: 0 auto;
 }
 body {
-    background-color: #2A5281;
+    background-color: white;
     font-family: "Libre Baskerville", Helvetica, sans-serif;
     font-size: 22px;
     margin: 0;
@@ -14,7 +14,7 @@ body {
 
 
 header{
-    background-color: white;
+    background-color: #577891;
 }
 #logo_link {
     padding-top: 5px;
@@ -22,7 +22,7 @@ header{
 
 nav a{
     text-align: center;
-    color: #2A5281;
+    color: white;
     text-decoration: none;
     padding: 35px;
 }
@@ -47,6 +47,9 @@ nav a:hover{
 h4{
     color: #5FA8D3;
 }
+#hero{
+    margin-bottom: 50px;
+}
 
 
 .button-box {
@@ -61,16 +64,16 @@ h4{
     border-radius: 5px;
 }
 .book {
-    background-color: #5FA8D3;
-    color: #2A5281;
-}
-.join{
     background-color: #2A5281;
     color: #5FA8D3;
 }
-.book:hover {
+.join{
     background-color: white;
     color: #2A5281;
+}
+.book:hover {
+    background-color: #5FA8D3;
+    color: white;
 }
 .join:hover{
     background-color: #5FA8D3;
@@ -95,7 +98,7 @@ h2 {
      margin: 200px 0;
 }
 .card-img{
-    border: 10px solid black;
+    border: 10px solid #2A5281;
 }
 main section img {
     box-sizing: border-box;
@@ -108,16 +111,16 @@ main section img {
 
 
 .msg{
-    background-color: white;
+    background-color: #2A5281;
     line-height: 1.5em;
     padding: 35px;
 }
 .msg h2 {
-    color: #2A5281;
+    color: #5FA8D3;
     font-family: "Patua One", "Bevan", serif;
 }
 .msg p {
-    color: #2A5281;
+    color: #5FA8D3;
     font-size: .8em;
     padding-bottom: 15px;
 }
