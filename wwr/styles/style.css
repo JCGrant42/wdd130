@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bevan&family=Black+Ops+One&family=Graduate&family=Libre+Baskerville:wght@400;700&family=Patua+One&display=swap');
 
 div {
     max-width: 1600px ;
@@ -5,16 +6,25 @@ div {
 }
 body {
     background-color: #2A5281;
+    font-family: "Libre Baskerville", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 
 header{
     background-color: white;
 }
+#logo_link {
+    padding-top: 5px;
+}  
+
 nav a{
     text-align: center;
     color: #2A5281;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{
     background-color: #5FA8D3;
@@ -30,6 +40,9 @@ nav a:hover{
 }
 .home-title {
     color: #5FA8D3;
+    font-family: "Patua One", "Bevan", serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: #5FA8D3;
@@ -40,11 +53,26 @@ h4{
     text-align: center;
 }
 .book, .join{
+    
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.book {
+    background-color: #5FA8D3;
+    color: #2A5281;
+}
+.join{
     background-color: #2A5281;
     color: #5FA8D3;
-    text-decoration: none;
 }
-.book:hover, .join:hover{
+.book:hover {
+    background-color: white;
+    color: #2A5281;
+}
+.join:hover{
     background-color: #5FA8D3;
     color: white;
 }
@@ -58,8 +86,20 @@ main section{
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
-
+h2 {
+    margin: 0;
+}
+.rivers-card, .camping-card, .rapids-card {
+     margin: 200px 0;
+}
+.card-img{
+    border: 10px solid black;
+}
+main section img {
+    box-sizing: border-box;
+}
 
 #background{
     height: 725px;
@@ -69,17 +109,24 @@ main section{
 
 .msg{
     background-color: white;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: #2A5281;
+    font-family: "Patua One", "Bevan", serif;
 }
 .msg p {
     color: #2A5281;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 
 footer{
     background-color: #2A5281;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: #5FA8D3;
@@ -94,6 +141,9 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }    
+footer .social img {
+    padding-top: 15px;
+}  
 
 
 
