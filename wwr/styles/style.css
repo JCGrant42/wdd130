@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bevan&family=Black+Ops+One&family=Graduate&family=Libre+Baskerville:wght@400;700&family=Patua+One&display=swap');
 
 #content {
-    max-width: 1600px ;
+    max-width: 1200px ;
     margin: 0 auto;
 }
+
 body {
     background-color: white;
     font-family: "Libre Baskerville", Helvetica, sans-serif;
@@ -47,6 +48,7 @@ nav a:hover{
     margin-top: -100px;
 }
 #hero-box{
+    
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
@@ -97,7 +99,7 @@ nav a:hover{
     color: white;
 }
 
-main{
+.home-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
@@ -197,6 +199,58 @@ footer .social img {
     padding-top: 15px;
 }  
 
+/*Styles for the Rivers page, note that the hero for this page uses the same as the home page */
+.river-head{
+    color: #2A5281 ;
+    font-size: 1.3em;
+    font-family: "Patua One", "Bevan", serif;
+    grid-column: 1/4;
+    padding-top: 40px;
+    margin: auto;
+
+}
+.river-grid {
+    display: grid;
+    grid-template-columns: repeat(25, 1fr);
+    grid-template-rows: repeat(11, 1fr);;
+}
+
+.rivers-background{
+    background-color: #2A5281 ;
+    grid-column: 2/25;
+    grid-row: 1/11;
+}
+.river-image{
+    grid-column: 3/13;
+    grid-row: 2/9;
+    box-shadow: 5px 5px 10px #203752;
+}
+
+.river-msg{
+    background-color: #577891;
+    grid-column: 12/24;
+    grid-row: 4/10;
+    box-shadow: 5px 5px 10px #203752;
+}
+
+.river-msg h2{
+    color: white;
+    font-size: 1.1em;
+    padding-top: 10px;
+    font-family: "Patua One", "Bevan", serif;
+}
+
+.river-msg p{
+    color: white;
+    font-size: .7em;
+    padding-bottom: 8px;
+}
+
+
+
+
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
@@ -218,6 +272,9 @@ footer .social img {
     }
     #hero-msg h4 {
         display: none;
+    }
+    .river-head{
+        text-align: center;
     }
     .home-title {
         font-size: 25px;
