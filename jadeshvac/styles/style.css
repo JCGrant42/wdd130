@@ -1,3 +1,267 @@
-.logo {
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins&family=Roboto&display=swap');
+
+
+
+
+body {
+    background-color: white;
+    font-family: "Poppins", "Roboto", "sans-serif";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    font-family: "Montserrat", serif;
+}
+.header-top{
+    max-width: 1100px ;
+    display: grid;
+    grid-template-columns: repeat(1fr, 3) ;
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+}
+#logo_link {
+    width: 275px;
+    grid-column: 1/2 ;
+    margin-bottom: 20px;
+}  
+.logo{
     width: 275px;
 }
+.phone-number{ 
+    margin: auto;
+    width: 100%;
+    grid-column: 2/3;
+    font-size: 30px;
+    text-align: center;
+}
+.button-box{
+    margin: auto;
+    grid-column: 3/4;
+    text-align: center;
+}
+
+nav {
+    background-color: #E97B25;
+    display: flex;
+    justify-content: center;
+}
+nav a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+nav a:hover{
+    background-color: #0b6fc3;
+    color: white;
+}
+
+#hero {
+    margin-bottom: 70px;
+    display: grid;
+    grid-template-rows: .5fr 1fr 1fr 1fr 3fr;
+    color: #0b6fc3;
+    font-family: "Montserrat", serif;
+}
+#hero-img{
+    width: 100%; 
+    grid-column: 1/3;
+    grid-row: 1/7;
+    z-index: -1;
+}
+#hero h2 {
+    font-size: 40px;
+    margin: auto 55px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    color: #0b6fc3;
+}
+#hero h1{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin: auto 60px;
+    font-size: 45px;
+    margin-top: 10px;  
+}
+.hero-button-box{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    margin: auto 60px;
+    margin-top: 30px;
+}
+
+.request-button{
+    background-color: #0b6fc3;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.request-button:hover {
+    background-color: #0b6fc3;
+    color: #404040;
+}
+
+
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 25px;
+    margin: auto;
+    width: 90%
+}
+#furnace {
+    grid-column: 1/2;
+}
+#air-conditioner {
+    grid-column: 2/3;
+}
+#estimates {
+    grid-column: 3/4;
+}
+#membership {
+    grid-column: 4/5;
+}
+
+.card{
+    background-color: #0b6fc3;
+    padding: 13px 13px 20px 13px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+}
+.card-img{
+    border: 5px solid #404040;
+    width: 100%;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+.card-button:hover{
+    opacity: .85;
+    transform: scale(1.05);
+    
+}
+.card-button {
+    width: 80%;
+    margin: 5px auto;
+    background-color: #E97B25;
+    margin-top: 10px;
+    border-radius: 7px;
+    font-family: "Montserrat", serif;
+
+}
+.card a{
+    text-decoration: none;
+    color: white;
+}
+h2 {
+    margin: 0;
+    font-size: 1em;
+    color: white;
+    padding: 10px;
+}
+main section p {
+    margin-bottom: 25px;
+    
+} 
+
+
+
+.information{
+    max-width: 1100px ;
+    width: 85%;
+    margin: auto;
+}
+.msg-title{
+    font-size: 35px;
+    margin-top: 40px;
+    margin-bottom: -15px;
+}
+.information p{
+    margin-bottom: 60px;
+}
+.service-background{
+    background-color: #E97B25;
+    color: #353333;
+    padding: 15px;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 40px;    
+}
+.information h3 {
+    margin: auto;
+}
+.information h4 {
+    margin: auto;
+    margin-bottom: 10px;
+}
+.information img{
+    margin-left: 40px;
+}
+
+
+
+footer{
+    background-color: #0b6fc3;
+    padding: 10px 100px 25px 100px;
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 1fr .5fr .7fr .5fr 1fr;
+    grid-template-rows: 3fr 1fr;
+}
+footer a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.service-area {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: auto;
+    padding: 15px;     
+}
+.address{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    margin: auto;
+    padding: 15px;   
+}
+.social {
+    grid-column: 5/6;
+    grid-row: 1/2;
+    margin: auto;
+    padding: 15px; 
+}
+footer .social img {
+    padding-top: 15px;
+}  
+.copy-right{
+    grid-column: 1/5;
+    grid-row: 2/3;
+    margin: auto 0;
+    margin-top: 10px;
+    padding: 15px; 
+}
+footer p {
+    font-size: 1.1em;
+} 
+footer a {
+    color: #E97B25;
+    text-decoration: none;
+}
+.site-plan {
+    grid-column: 5/6;
+    grid-row: 2/3;
+    margin: auto 0;
+    text-align: center;
+    padding: 15px; 
+}
+

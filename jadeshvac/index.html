@@ -10,12 +10,14 @@
 <body>
 <div id="content">
 <header> 
-    <a id="logo_link" href="index.html">
-        <img class="logo"  src="images/logo-trans.png" alt="jade's heating and cooling logo">
-    </a>
-    <h1 class="phone-number">(xxx) xxx-xxxx</h1>
-    <div class="button-box"> 
-        <a class="book" href="contactus.html">Request Service</a>
+    <div class="header-top">
+        <a id="logo_link" href="index.html">
+            <img class="logo"  src="images/logo-trans.png" alt="jade's heating and cooling logo">
+        </a>
+        <h1 class="phone-number">(XXX) XXX-XXXX</h1>
+        <div class="button-box"> 
+            <a class="request-button" href="contactus.html">Request Service</a>
+        </div>
     </div>
     <nav>
         <a href="index.html">Home</a>
@@ -26,63 +28,80 @@
 </header>
 
 <div id="hero">  
-    <div id="hero-box"> 
-        <img id="hero-img" src="images/home-comfort.jpg" alt=""> 
-    </div> 
-    <section id="hero-msg"> 
-        <h1 class="home-title">Quality Service</h1>
-        <h4>Allowing you to rest comfortably</h4> 
-        <div class="button-box"> 
-            <a class="book" href="contactus.html">Request Service</a>
-        </div>
-    </section>
+    <img id="hero-img" src="images/home-comfort.jpg" alt="Two people leaning back comfortably on a couch"> 
+    <h2>Quality Service</h2>
+    <h1>Allowing you to rest comfortably</h1> 
+    <div class="hero-button-box"> 
+         <a class="request-button" href="contactus.html">Request Service</a>
+    </div>
 </div>
 
-<main class="home-grid"> 
-    <section class="furnace-card"> 
-        <img class="card-img" src="images/technician-working.png" alt="Man working on furnace">
-        <div class="card-button">
-            <a href="furnace.html">Furnace</a>
-        </div>
-    </section>
+<main> 
+    <div class="home-grid">
+        <section id="furnace" class="card"> 
+            <a href="furnace.html">
+            <img class="card-img" src="images/technician-working.png" alt="Man working on furnace">
+            <p>Want to get a head start before the cold kicks in? We can help.</p>
+            <div class="card-button">
+                <h2>Furnace Services</h2>
+            </div>
+            </a>
+        </section>
 
-    <section class="air-conditioner-card"> 
-        <img class="card-img" src="images/ac-service.jpg" alt="Man working on AC">
-        <div class="card-button">
-            <a href="air-conditioner.html">Air Conditioner</a>
-        </div>
-    </section>
+        <section id="air-conditioner" class="card"> 
+            <a href="air-conditioner.html">
+            <img class="card-img" src="images/ac-service.jpg" alt="Man working on AC">
+            <p>Keep your house cool before it gets to hot.</p>
+            <div class="card-button">
+                <h2>Air Conditioner Services</h2>
+            </div>
+            </a>
+        </section>
 
-    <section class="estimates-card"> 
-        <img class="card-img" src="images/furnace-inspection.jpg" alt="Man inspecting furnace ">
-        <div class="card-button">
-            <a href="contactus.html">Free Estimate</a>
-        </div>
-    </section>
+        <section id="estimates" class="card"> 
+            <a href="contactus.html">
+            <img class="card-img" src="images/furnace-inspection.jpg" alt="Man inspecting furnace ">
+            <p>Thinking of replacing your system, then contact us now.</p>
+            <div class="card-button">
+                <h2>Free Estimate</h2>
+            </div>
+            </a>
+        </section>
 
-    <section class="membership-card"> 
-        <img class="card-img" src="images/successful-happy-business-team.jpg" alt="group of people putting there fists together">
-        <div class="card-button">
-            <a href="contactus.html">Membership</a>
+        <section id="membership" class="card"> 
+            <a href="contactus.html">
+            <img class="card-img" src="images/successful-happy-business-team.jpg" alt="group of people putting there fists together">
+            <p>Want great deals on regular maintenance, then call us today.</p>
+            <div class="card-button">
+                <h2>Membership</h2>
+            </div>
+            </a>
+        </section>
         </div>
-    </section>
 
-    <h3>Service Area:</h3>
-    <h4>We are proud to service the area of Pocatello, Aberdeen, American Falls, Blackfoot, Chubbuck, Malad</h4>
-    <p>We at Jade's HVAC Services strive to provide quality services to all our customers in the Pocatello
-        area. If you need help with either your air conditioner or furnace we are here to help. Please contact
-        us today if you need any repairs or maintenance done on our HVAC system, or if you have been
-        considering to get a new unit installed we would be happy to help you find the best choice for you.</p>
+    <div class="information"> 
+        <h1 class="msg-title">Contact us today</h1>
+        <p>We at Jade's Heating and Cooling strive to provide quality services to all our customers in the Pocatello
+            area. If you need help with either your air conditioner or furnace we are here to help. Please contact
+            us today if you need any repairs or maintenance done on our HVAC system, or if you have been
+            considering to get a new unit installed we would be happy to help you find the best choice for you. Thank you</p>
+        <div class="service-background">
+            <h3>Service Area:</h3>
+            <h4>We are proud to service the area of Pocatello, Aberdeen, American Falls, Blackfoot, Chubbuck, Malad</h4>
+        </div>
+        <img src="images/area-map.png" alt="Map of the area"> 
+    </div>
 
 </main> 
 <footer> 
-    <p>Jade's Heating and Cooling &copy; 2022 - Jade Grant</p>
-    <p>HVAC Service Area:
+    <p class="site-plan"><a href="siteplan.html">Site Plan</a></p>
+    <p class="service-area">Service Area:
         Serving Pocatello, Aberdeen, American Falls, Blackfoot, Chubbuck, Malad </p>
-    <p><a href="siteplan.html">Site Plan</a> </p>
-    <p> Address:
-        100 Yellowstone Road
+    <p class="address"> Address:
+        XXXX Yellowstone Road
         Pocatello, 83201, USA</p>
+    <p class="copy-right">Jade's Heating and Cooling &copy; 2022 - Jade Grant</p>
+
     <div class="social">
         <a href="https://facebook.com" target="_blank">
             <img src="images/facebook.png" alt="fb icon">
