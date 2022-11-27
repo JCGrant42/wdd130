@@ -1,8 +1,4 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins&family=Roboto&display=swap');
-
-
-
 
 body {
     background-color: white;
@@ -63,6 +59,7 @@ nav a:hover{
     color: white;
 }
 
+
 #hero {
     margin-bottom: 70px;
     display: grid;
@@ -97,6 +94,7 @@ nav a:hover{
     margin-top: 30px;
 }
 
+
 .request-button{
     background-color: #0b6fc3;
     color: white;
@@ -108,11 +106,12 @@ nav a:hover{
 }
 .request-button:hover {
     background-color: #0b6fc3;
-    color: #404040;
+    color: #888888;
 }
 
 
-.home-grid{
+
+.content-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 25px;
@@ -131,6 +130,7 @@ nav a:hover{
 #membership {
     grid-column: 4/5;
 }
+
 
 .card{
     background-color: #0b6fc3;
@@ -171,7 +171,8 @@ h2 {
 }
 main section p {
     margin-bottom: 25px;
-    
+    padding-left: 10px;
+    padding-right: 10px;
 } 
 
 
