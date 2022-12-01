@@ -9,21 +9,23 @@
 </head>
 <body>
 <div id="content">
-<header> 
-    <a id="logo_link" href="index.html">
-        <img class="logo"  src="images/logo-trans.png" alt="jade's heating and cooling logo">
-    </a>
-    <h1 class="phone-number">(xxx) xxx-xxxx</h1>
-    <div class="button-box"> 
-        <a class="book" href="contactus.html">Request Service</a>
-    </div>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="furnace.html">Furnace</a>
-        <a href="air-conditioner.html">Air Conditioner</a>
-        <a href="contactus.html">Contact Us</a>
-    </nav>
-</header>
+    <header> 
+        <div class="header-top">
+            <a id="logo_link" href="index.html">
+                <img class="logo"  src="images/logo-trans.png" alt="jade's heating and cooling logo">
+            </a>
+            <h1 class="phone-number">(XXX) XXX-XXXX</h1>
+            <div class="button-box"> 
+                <a class="request-button" href="contactus.html">Request Service</a>
+            </div>
+        </div>
+        <div id="navbar">
+            <a href="index.html">Home</a>
+            <a href="furnace.html">Furnace</a>
+            <a href="air-conditioner.html">Air Conditioner</a>
+            <a href="contactus.html">Contact Us</a>
+        </div>
+    </header>
 <main class="sub-grid">
 
 <div class="title-box">
@@ -102,13 +104,14 @@ installing a completely new one.
 
 </main> 
 <footer> 
-    <p>Jade's Heating and Cooling &copy; 2022 - Jade Grant</p>
-    <p>HVAC Service Area:
+    <p class="site-plan"><a href="siteplan.html">Site Plan</a></p>
+    <p class="service-area">Service Area:
         Serving Pocatello, Aberdeen, American Falls, Blackfoot, Chubbuck, Malad </p>
-    <p><a href="siteplan.html">Site Plan</a> </p>
-    <p> Address:
-        100 Yellowstone Road
+    <p class="address"> Address:
+        XXXX Yellowstone Road
         Pocatello, 83201, USA</p>
+    <p class="copy-right">Jade's Heating and Cooling &copy; 2022 - Jade Grant</p>
+
     <div class="social">
         <a href="https://facebook.com" target="_blank">
             <img src="images/facebook.png" alt="fb icon">
@@ -125,3 +128,22 @@ installing a completely new one.
 </body>
 
 </html>
+<script>
+    // When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
