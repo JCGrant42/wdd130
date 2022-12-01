@@ -40,30 +40,27 @@ header{
     text-align: center;
 }
 
+
+
+/* Style the navbar */
 #navbar {
     overflow: hidden;
-    background-color: #E97B25;
-    display: flex;
-    justify-content: center;
+    background-color: #333;
   }
   
   /* Navbar links */
   #navbar a {
-    color: white;
+    float: left;
+    display: block;
+    color: #f2f2f2;
     text-align: center;
-    padding: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 14px;
     text-decoration: none;
   }
-  #navbar a:hover{
-    background-color: #0b6fc3;
-    color: white;
-  }
-
+  
   /* Page content */
   .content {
-    padding: 50px;
+    padding: 16px;
   }
   
   /* The sticky class is added to the navbar with JS when it reaches its scroll position */
@@ -77,6 +74,45 @@ header{
   .sticky + .content {
     padding-top: 60px;
   }
+
+
+/* #navbar {
+    overflow: hidden;
+    background-color: #E97B25;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #navbar a {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+  }
+  #navbar a:hover{
+    background-color: #0b6fc3;
+    color: white;
+  }
+
+  .content {
+    padding: 50px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  } */
+
+
+
+
 
 /* 
 nav {
